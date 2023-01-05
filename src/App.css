@@ -40,6 +40,12 @@
   border: 0px;
   margin-top: 5px;
   font-size: 15px;
+  cursor: pointer;
+}
+.disabled {
+  background-color: #282c34;
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 .todo {
   border-bottom: 1px solid gainsboro;
