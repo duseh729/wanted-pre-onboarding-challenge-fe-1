@@ -38,7 +38,6 @@ export default function SignUp() {
               if (e.target.value.includes("@") && e.target.value.includes(".")) {
                 setBtnStatus("1");
                 if (e.target.parentNode.parentNode.childNodes[1].childNodes[2].value.length > 7) {
-                  console.log("hi");
                   e.target.parentNode.parentNode.childNodes[2].className = "btn-design";
                 }
               } else {

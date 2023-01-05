@@ -6,7 +6,7 @@
       "password": "adminadmin"
     },
     {
-      "email": "@.asdasdasd",
+      "email": "asd1234@a.com",
       "password": "asdasdasd",
       "id": 2
     }
@@ -14,8 +14,13 @@
   "data": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "some comment",
+      "date": "0101"
+    },
+    {
+      "id": 2,
+      "title": "밥 먹기",
+      "date": "0102"
     }
   ]
 }

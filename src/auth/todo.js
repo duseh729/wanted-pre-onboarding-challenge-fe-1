@@ -1,6 +1,18 @@
 import { useState } from "react";
+import axios from "axios";
+
+function getTodo() {
+  let k = [];
+  axios.get("http://localhost:3001/data").then((res) => {
+    res.data.map((e) => {
+      k.push([e.title, e.date]);
+    });
+  });
+  console.log(k);
+}
 
 export default function Todo() {
+  getTodo();
   let [todo, setTodo] = useState([]);
   let [date, setDate] = useState([]);
   return (
